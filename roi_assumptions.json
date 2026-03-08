@@ -1,0 +1,49 @@
+{
+  "cost_per_attrition": {
+    "low": 30000,
+    "base": 50000,
+    "high": 80000
+  },
+  "default_intervention": {
+    "coverage": 0.6,
+    "effect_size": {
+      "low": 0.05,
+      "base": 0.08,
+      "high": 0.12
+    },
+    "fixed_program_cost": 50000,
+    "variable_cost_per_employee": 500
+  },
+  "interventions": {
+    "OverTime": {
+      "coverage": 0.8,
+      "effect_size": {
+        "low": 0.05,
+        "base": 0.1,
+        "high": 0.15
+      },
+      "fixed_program_cost": 60000,
+      "variable_cost_per_employee": 200
+    },
+    "MonthlyIncome": {
+      "coverage": 0.6,
+      "effect_size": {
+        "low": 0.04,
+        "base": 0.08,
+        "high": 0.12
+      },
+      "fixed_program_cost": 120000,
+      "variable_cost_per_employee": 1500
+    },
+    "Age": {
+      "coverage": 0.5,
+      "effect_size": {
+        "low": 0.03,
+        "base": 0.06,
+        "high": 0.1
+      },
+      "fixed_program_cost": 40000,
+      "variable_cost_per_employee": 400
+    }
+  }
+}
